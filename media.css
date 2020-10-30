@@ -1,3 +1,18 @@
+@media (min-width: 1920px) {
+  .main__title {
+    font: bold 66px/87px "PT Serif", arial, helvetica, sans-serif;
+  }
+  .main__description {
+    font: 400 22px/25px Roboto, arial, helvetica, sans-serif;
+  }
+  .main__button {
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  }
+  .header {
+    margin-bottom: 207px;
+  }
+
+}
 @media (max-width: 768px) {
 
   .header {
@@ -11,7 +26,7 @@
  }
   .main__title {
     margin-bottom: 44px;
-    font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
+    font: bold 30px/39px "PT Serif", arial, helvetica, sans-serif;
  }
   .main__description {
     margin-bottom: 25px;

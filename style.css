@@ -13,9 +13,9 @@ body {
 }
 .logo {
   position: relative;
-  padding: 40px 0 40px 0;
+  padding: 40px 0;
   padding-left: 44px;
-  font-family: 'pt_serif', arial, helvetica, 'sans-serif';
+  font-family: "PT Serif", arial, helvetica, 'sans-serif';
   font-weight: bold;
   font-size: 24px;
   line-height: 31px;
@@ -91,19 +91,20 @@ body {
   width: 100%;
 }
 .main {
-  padding: 0 63% 100px 0;
+  padding: 17px 63% 100px 0;
   background: top right no-repeat url(img/Frame.svg);
 }
 .main__title {
   margin: 0 0 40px 0;
-  font: 700 50px/66.25px pt_serif, arial, helvetica, sans-serif;
+  font: bold 50px/65px "PT Serif", arial, helvetica, sans-serif;
 }
 .main__description {
   margin: 0 0 41px 0;
-  font: 500 18px/21.09px Roboto, arial, helvetica, sans-serif;
+  padding-right: 10px;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
 }
 .main__button {
-  font: 500 14px/16.41px Roboto, arial, helvetica, sans-serif;
+  font: 14px/16.41px Roboto, arial, helvetica, sans-serif;
 }
 .main__title-text_highlight {
   background: #ECF3FF;
@@ -124,43 +125,3 @@ body {
 #menu__toggle {
   opacity: 0;
 }
-/*  .menu__btn {
-  display: flex;
-  align-items: center;
-  position: fixed;
-  top: 20px;
-  left: 326px;
-  width: 25px;
-  height: 17px;
-  cursor: pointer;
-  z-index: 1;
-}
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  background-color: #0056EC;
-}
-.menu__btn > span::before {
-  content: '';
-  top: -4px;
-}
-.menu__btn > span::after {
-  content: '';
-  top: 4px;
-}
-
-#menu__toggle:checked ~ .menu__btn > span {
-  transform: rotate(45deg);
-}
-#menu__toggle:checked ~ .menu__btn > span::before {
-  top: 0;
-  transform: rotate(0);
-}
-#menu__toggle:checked ~ .menu__btn > span::after {
-  top: 0;
-  transform: rotate(90deg);
-}*/
