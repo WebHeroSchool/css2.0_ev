@@ -57,6 +57,11 @@
     margin-right: 4px;
   }
 }
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 91%;
+  }
+}
 @media (max-width: 768px) {
 
   .header {
