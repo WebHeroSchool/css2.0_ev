@@ -1,0 +1,217 @@
+@media (min-width: 1900px) {
+  .main {
+    padding: 18px 55% 200px 2px;
+    background-size: 50%;
+  }
+  .main__title {
+    font: bold 66px/87px "PT Serif", arial, helvetica, sans-serif;
+    margin-bottom: 37px;
+  }
+  .main__description {
+    font: 400 22px/25px Roboto, arial, helvetica, sans-serif;
+    padding-right: 270px;
+  }
+  .main__button {
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+    padding: 19px 29px;
+  }
+  .header {
+    margin-bottom: 187px;
+  }
+  .wrapper {
+    width: 80%;
+    margin: auto;
+  }
+  .logo {
+    padding-left: 47px;
+  }
+  .menu {
+    padding-top: 5px;
+  }
+  .menu__item {
+    font: 500 18px/20px Roboto, arial, helvetica, sans-serif;
+    margin-right: 27px;
+  }
+  .menu__item:last-child {
+    margin-right: 8px;
+  }
+}
+@media (max-width: 1366px) {
+  .wrapper {
+    width: 68%;
+    margin: auto;
+  }
+  .main__button {
+    padding: 14px 22px;
+  }
+  .menu__item {
+    margin-right: 26px;
+  }
+  .menu__item_active {
+    margin-right: 25px;
+  }
+  .menu__item:nth-child(3) {
+    margin-right: 28px;
+  }
+  .menu__item:last-child {
+    margin-right: 4px;
+  }
+}
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 91%;
+  }
+}
+@media (max-width: 905px) {
+  .main {
+    padding: 18px 55% 200px 2px;
+    background-size: 50%;
+  }
+  .main__title {
+    font-size: 47px;
+  }
+  .main__description {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+
+  .header {
+    margin-bottom: 28px;
+ }
+  .main {
+    text-align: center;
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
+ }
+  .main__title {
+    margin-bottom: 44px;
+    font: bold 30px/39px "PT Serif", arial, helvetica, sans-serif;
+ }
+  .main__description {
+    margin-bottom: 25px;
+    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+ }
+  .main__button {
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+ }
+@media (max-width: 580px) {
+  .menu {
+    display: none;
+  }
+}
+}
+@media (max-width: 375px) {
+  .wrapper {
+    width: 88%;
+  }
+  .header {
+    margin-bottom: 0;
+  }
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 33px;
+  left: 326px;
+  width: 25px;
+  height: 17px;
+  cursor: pointer;
+  z-index: 1;
+}
+.logo {
+  padding: 40px 0 16px 44px;
+}
+.logo__circle {
+  top: 46%;
+}
+.logo__circle_color_blue {
+  top: 55%;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #0056EC;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+.menu {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 375px;
+  height: 100%;
+  margin: 0;
+  padding: 175px 0;
+  list-style: none;
+  text-align: center;
+  background-color: #FFF;
+}
+.menu__item {
+  display: block;
+  margin: 0;
+  padding: 12px 24px;
+  color: #333;
+  font: 500 30px/35px Roboto, arial, helvetica, sans-serif;
+  text-decoration: none;
+}
+.menu__item_active::after {
+  background: #FFF;
+}
+  .menu__item:nth-child(3) {
+    padding: 14px 30px 14px 24px;
+    margin-right: 0;
+  }
+  .menu__item:nth-child(4) {
+    padding: 12px 30px 14px 26px;
+  }
+  .menu__item:last-child {
+    padding: 10px 30px 14px 24px;
+  }
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu {
+  visibility: visible;
+  left: 0;
+}
+  .main {
+    text-align: center;
+    padding: 79% 0 0 5px;
+    background-size: 84%;
+    background-position: top center;
+ }
+  .main__title {
+    margin-bottom: 32px;
+  }
+  .main__description {
+    padding: 0 35px;
+    margin-bottom: 23px;
+    font: 500 16px/20px Roboto, arial, helvetica, sans-serif;
+  }
+  .main__button {
+    padding: 14px 20px;
+  }
+}

@@ -3,18 +3,19 @@ body {
   margin: 0;
 }
 .wrapper {
-  width: 80%;
+  width: 91%;
   margin: auto;
 }
 .header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 85px;
 }
 .logo {
   position: relative;
-  padding: 40px 0 40px 0;
+  padding: 40px 0;
   padding-left: 44px;
-  font-family: 'pt_serif', arial, helvetica, 'sans-serif';
+  font-family: "PT Serif", arial, helvetica, 'sans-serif';
   font-weight: bold;
   font-size: 24px;
   line-height: 31px;
@@ -40,6 +41,7 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  padding-top: 6px;
 }
 
 .menu__item:last-child {
@@ -47,7 +49,7 @@ body {
 }
 .menu__item {
   position: relative;
-  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  font: 500 14px/17px Roboto, arial, helvetica, sans-serif;
   color: #000000;
   text-decoration: none;
   margin-right: 26px;
@@ -59,7 +61,7 @@ body {
   display: block;
   content: '';
   width: 0;
-  height: 3px;
+  height: 2px;
   background: #0056EC;
   opacity: 0;
   transition: opacity .5s, width .5s;
@@ -69,7 +71,7 @@ body {
   display: block;
   content: '';
   width: 100%;
-  height: 3px;
+  height: 2px;
   background: #0056EC;
 }
 
@@ -89,4 +91,36 @@ body {
   opacity: 1;
   width: 100%;
 }
+.main {
+  padding: 18px 55% 100px 0;
+  background: top right no-repeat url(img/Frame.svg);
+}
+.main__title {
+  margin: 0 0 40px 0;
+  font: bold 50px/65px "PT Serif", arial, helvetica, sans-serif;
+}
+.main__description {
+  margin: 0 0 40px 0;
+  padding-right: 30px;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+}
 
+.main__title-text_highlight {
+  background: #ECF3FF;
+}
+.main__button {
+  display: inline-block;
+  font: 14px/16px Roboto, arial, helvetica, sans-serif;
+  color: #fff;
+  background: #0056EC;
+  padding: 14px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opasity .5s;
+}
+.main__button:hover {
+  opacity: .5;
+}
+#menu__toggle {
+  opacity: 0;
+}
